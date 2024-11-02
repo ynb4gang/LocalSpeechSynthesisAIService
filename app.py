@@ -9,7 +9,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 from langchain.prompts import PromptTemplate
 from langchain_community.llms import Ollama
-from tts import SpeechSynthesisService
+from SpeechSynthesisService import SpeechSynthesisService
 
 console = Console()
 stt = whisper.load_model("base.en")
